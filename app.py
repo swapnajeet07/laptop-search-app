@@ -63,7 +63,8 @@ if query:
         # Display filtered results
         if not results.empty:
             st.success("Here are laptops that match your needs:")
-            st.write(results[['brand', 'Model', 'Price', 'processor_brand', 'ram_memory']])  # Adjusted columns
+            st.write(results[['brand', 'Model', 'Price', 'processor_brand', 'ram_memory']])
+            # st.write(results[['brand', 'Model', 'Price', 'processor_brand', 'ram_memory']])  # Adjusted columns
         else:
             st.warning("No laptops found matching your criteria.")
 
