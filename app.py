@@ -32,10 +32,10 @@ def semantic_search(query, top_k=10):
     return results
 
 # Streamlit UI
-st.title("💻 AI Jaisa Cahiye Waisa Laptop Search")
-st.markdown("Idhar Pucho Kaisa Chahiye- laptops by budget, processor, RAM, or use case (e.g., gaming, office, editing).")
+st.title("💻 AI-Powered Laptop Search")
+st.markdown("Ask for laptops by budget, processor, RAM, or use case (e.g., gaming, office, editing).")
 
-query = st.text_input("Kya chahiye ? , kaisa chahiye ? ...Bol re Baba!!!", placeholder="e.g., i7 laptop for video editing under 60000")
+query = st.text_input("What are you looking for?", placeholder="e.g., i7 laptop for video editing under 60000")
 
 if query:
     with st.spinner("Searching..."):
