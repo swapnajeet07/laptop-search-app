@@ -4,3 +4,5 @@ numpy
 faiss-cpu
 sentence-transformers
 groq
+qrcode
+fpdf
